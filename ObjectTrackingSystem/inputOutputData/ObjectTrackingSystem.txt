@@ -1,0 +1,22 @@
+11/24/2019
+
+Bellow is the though process for solving the object tracking system/Panospheric Camera mounted on robot).
+
+The solution can also be addressed/devloped using K-Mean algorithum from Machine Learing domain
+
+1-The approach to solving this problem is grouping the features into three (3) clusters.
+2- Assumed three (3 ) centroids (cluster of points read by Panospheric camera)
+3-initially, assumed/estimated center for three clusters 
+4- started reading an array of input (of theta values) 
+
+1- Correctness on test cases : 
+-the centroid of each cluster computed vs coresponding output are very close in vlaues
+2-Simplicity / Elegance:
+- The code is Java lanugage and simple, with no dependencies to avoid versioning and compatibility.
+3-Maintainability, i.e. modularity, readability, structure, style, etc.:
+- code is readable and based on java concept and features
+4-Performance (but don't sacrifice readability for performance)
+- the code is mainly written for readability and easy to follow and understand.
+5-FYI-Developmemt Tools
+The trade-off is in favor of readability. The code is developed in Java 8 (build 1.8.0_121-b13) 
+on Eclispe IDE ( 4.13) 
